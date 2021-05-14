@@ -27,7 +27,7 @@ Using 5-fold cross-validation and random/grid search for hyper-parameter tuning,
 ![fig2](final_results.png)
 
 There was moderate class imbalance that was corrected for using oversampling. After oversampling, these five models were again compared using 5-fold cross-validation. The training results after imbalance correction are shown below.
-![fig2](final2.png)
+![fig3](final2.png)
 
 XGBoost was selected as the optimal model. I also constructed random sentiment measures with the same mean and standard deviation as those observed in the training data. I re-ran the test validation with these random measures to observe the decline in predictive power. Test results are shown below.
-![fig2](final3.png)
+![fig4](final3.png)
